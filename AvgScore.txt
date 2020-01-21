@@ -1,0 +1,44 @@
+           "Average Score" 
+------------------------------------
+-------------Pseudo Code------------
+------------------------------------
+Number of Exam Scores = 10
+Exam Scores = user input
+Average Score = (add all scores) / 10
+
+
+While Loop (while counter is less or equal to  Exam Score total length(10));
+	Error if user enters letters or spaces;
+		
+		
+	Ask user for 10 Exam scores;
+		store scores in integer variable;
+		add scores into (Exam Scores) with each loop;
+
+(Average Score) = (Exam Scores) / (Exam Score Length)
+
+Print out the average for the user to see.
+-----------------------------------------------------------------------------------
+------------------------------------
+--------------Test Data-------------
+------------------------------------	
+Example 1:
+Input
+While Loop (counter >= 10)                           Output     
+1    2   3   4   5   6   7   8   9   10
+________________________________________
+98, 100, 65, 86, 49, 90, 69, 89, 68, 89 |    = 803 / 10 = 80.3
+________________________________________|
+
+
+Example 2:
+While Loop (counter >= 10)                           Output     
+1    2   3   4   5   6   7   8   9   10
+________________________________________
+87, 75, 67, 45, 46, 89, 67, 90, 45, 100 |    = 711/ 10 = 71.1
+________________________________________|
+
+
+
+
+

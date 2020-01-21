@@ -1,0 +1,47 @@
+           "Water Off Roof"
+------------------------------------
+-------------Pseudo Code------------
+------------------------------------
+
+Variables
+___________
+Roof length
+Roof width
+rainfall
+cubic inches of water
+
+Ask user for length and width of roof in feet.
+Error if not correct input.. (letters instead of numbers)
+
+Multiply input length + width by 12 to convert each to inches. (store in new variable)
+Ask user for inches of rainfall during rainstorm (store in variable)
+
+
+total = (new length * new width * rainfall) / 231
+print out "Total runoff is equal to (total) gallons"
+
+
+------------------------------------
+--------------Test Data-------------
+------------------------------------
+Test 1: 	
+User input Length = 40 ------> New length = 40 * 12 = 480         
+User input Width = 30  ------> New width = 30 * 12 = 360
+
+User input rainfall = 2
+
+Total = (480 * 360 * 2) / 231 = 1,496.10
+
+_________________________________________________________
+Test 2: 
+User input Length = 70 ------> New length = 70 * 12 = 840
+User input Width = 60  ------> New width = 60 * 12 = 720
+
+User input rainfall = 10
+
+Total = 840 * 720 * 10) / 231 = 26,181.81
+
+
+
+
+
